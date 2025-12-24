@@ -1,0 +1,19 @@
+{
+  "name": "ecs-fargate-spot-interruption-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.186.0",
+    "@aws-sdk/client-ecs": "^3.178.0",
+    "@aws-sdk/client-elastic-load-balancing-v2": "^3.178.0",
+    "@aws-sdk/client-eventbridge": "^3.186.0",
+    "@aws-sdk/util-endpoints": "^3.192.0"
+  }
+}
